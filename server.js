@@ -27,11 +27,11 @@ function createTemplate (data){
     var content=data.content;
     
 var htmlTemplate=`
-<html>
-<head>
+    <html>
+    <head>
     <title>
         $(title)
-    </title>
+        </title>
     <meta name="viewport" content="width=devicewidth,initial-scale=1"/>
      <link href="/ui/style.css" rel="stylesheet" />
     <body>
@@ -51,10 +51,10 @@ var htmlTemplate=`
         </div>
         </div>
     </body>
-</html>
-`;
+    </html>
+    ';
 return htmlTemplate;
-
+}
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
