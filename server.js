@@ -18,9 +18,10 @@ var articleOne={
                 </p>
                 <p>
                     Why don't you join with me ?
-                </p>
+                </p>'
 }
 function createTemplate (data){
+
 var title=data.title;
 var heading=data.heading;
 var date= data.date;
