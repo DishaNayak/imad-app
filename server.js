@@ -19,7 +19,6 @@ var articleOne={
                 <p>
                     Why don't you join with me ?
                 </p>'
-};
 function createTemplate (data){
 
 var title=data.title;
